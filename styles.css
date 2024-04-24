@@ -1,48 +1,148 @@
-.product{
-	background-color:#37EE93;
-	width:500px;
-	height:300px;
+*{
+	margin:0;
+	padding:0;
+	font-family: Arial, sans-serif;
+}
+
+body{
+	background-color:#38DF8E;
 	display:flex;
 	justify-content:center;
-	align-items:center;
+	padding:60px;
+}
+
+.product{
+	width:250px;
+	height:200px;
+	background-color:#fff;
+	display:flex;
+	padding:10px;
+	position:relative;
 }
 
 .product__photo{
 	background-color:#fff;
-	width:250px;
-	height:250px;
-	border-radius:3px;
-	position:relative;
-	padding:20px
+	position:absolute;
+	left:-10px;
+	box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
 .photo-container{
-	position:absolute;
-	background-color:red;
-	left:-20px
+	
 }
 
 .photo-main{
-	background-color:#A9EE37;
-	padding:10px
+	background-color:#93DF38 ;
+}
+
+.photo-main img{
+	width:100px;
 }
 
 .controls{
-	color:#fff;
+	padding:10px;
 	display:flex;
 	justify-content:space-between;
+	color:#fff;
 }
 
 .photo-album{
-	
+	display:flex;
+	justify-content:center;
+	padding:5px;
 }
 
 .photo-album ul{
 	display:flex;
-	gap:10px;
+	gap:5px;
 }
 
 .photo-album ul li{
 	list-style:none;
 	border:1px solid gray;
+	
 }
+
+.photo-album ul li img{
+	width:20px
+}
+
+.product__info{
+	margin-left:120px;
+	display:flex;
+	flex-direction:column;
+	justify-content:space-around
+}
+
+.title h1{
+	font-size:13px;
+}
+
+.title span{
+	color:gray;
+	font-size:8px;
+}
+
+.price{
+	color:red;
+	font-size:10px;
+	display:flex;
+	align-items:center;
+	gap:5px
+}
+
+.price span{
+	font-size:20px
+}
+
+.variant h3{
+	color:gray;
+	font-size:5px
+}
+
+.variant ul{
+	display:flex;
+	margin-left:20px
+}
+
+.variant ul li{
+	list-style:none;
+	width:20px;
+	height:20px;
+}
+
+.border{
+	border:1px solid gray
+}
+
+.variant ul li img{
+	width:100%;
+}
+
+.description h3{
+	color:gray;
+	font-size:10px;
+	margin-bottom:5px
+}
+
+.description ul{
+	font-size:6px;
+	display:flex;
+	flex-direction:column;
+	gap:5px;
+	margin-left:20px;
+}
+
+.btn{
+	background-color:red;
+	border:none;
+	border-radius:3px;
+	color:#fff;
+	padding:5px;
+	text-transform:uppercase;
+	font-size:7px;
+	font-weight:bold;
+	width:80px;
+	box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
