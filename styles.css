@@ -1,1 +1,48 @@
-/* your code here */
+.product{
+	background-color:#37EE93;
+	width:500px;
+	height:300px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+.product__photo{
+	background-color:#fff;
+	width:250px;
+	height:250px;
+	border-radius:3px;
+	position:relative;
+	padding:20px
+}
+
+.photo-container{
+	position:absolute;
+	background-color:red;
+	left:-20px
+}
+
+.photo-main{
+	background-color:#A9EE37;
+	padding:10px
+}
+
+.controls{
+	color:#fff;
+	display:flex;
+	justify-content:space-between;
+}
+
+.photo-album{
+	
+}
+
+.photo-album ul{
+	display:flex;
+	gap:10px;
+}
+
+.photo-album ul li{
+	list-style:none;
+	border:1px solid gray;
+}
