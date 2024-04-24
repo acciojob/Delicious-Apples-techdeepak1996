@@ -33,10 +33,14 @@ body{
 
 .photo-main{
 	background-color:#93DF38 ;
+	height:165px;
+	position:relative;
 }
 
 .photo-main img{
 	width:100px;
+	position:absolute;
+	left:-20px;
 }
 
 .controls{
